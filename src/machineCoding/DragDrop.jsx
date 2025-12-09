@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart } from "./redux/slice/cartSlice";
 
 const DragDrop = () => {
   const [items, setItems] = useState([
@@ -8,6 +10,12 @@ const DragDrop = () => {
     "Item 4",
     "Item 5",
   ]);
+
+  const cartData = useSelector((state)=>state.cart.cart)
+  const dispatch = useDispatch()
+
+  console.log("redux data",cartData);
+  
 
   const [dragedIndex, setDragedIndex] = useState(null);
 
@@ -49,6 +57,7 @@ const DragDrop = () => {
           {item}
         </div>
       ))}
+      <button onClick={()=>dispatch(addToCart({id:1,item:"money",quantity:1,price:500}))}>add data to cart</button>
     </div>
   );
 };
