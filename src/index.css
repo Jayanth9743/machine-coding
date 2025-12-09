@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  animation: slide 2s forwards ease-in;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-container div{
+  border: 1px solid black;
+  padding: 2rem;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+
+
+@keyframes slide {
+  0%{
+    transform: translate(-50%, -50%);
+  }
+  100%{
+    transform: translate(-50%, 150vh);
+  }
+}

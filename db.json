@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jayanth",
+      "role": "frontend dev"
+    },
+    {
+      "id": "7d3e",
+      "name": "New User"
+    },
+    {
+      "id": "ba27",
+      "name": "New User"
+    },
+    {
+      "id": "4302",
+      "name": "New User"
+    },
+    {
+      "id": "d8eb",
+      "name": "New User"
+    },
+    {
+      "id": "7053",
+      "name": "New User"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Mango",
+      "price": 120
+    },
+    {
+      "id": "2",
+      "name": "Banana",
+      "price": 50
+    }
+  ]
+}
