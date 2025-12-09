@@ -8,8 +8,9 @@ import Grid from "./machineCoding/Grid"
 import TodoList from "./machineCoding/TodoList"
 import SearchFilter from "./machineCoding/SearchFilter"
 import Paginataion from "./machineCoding/Paginataion"
-import WebSocketPage from "./machineCoding/WebSocket"
+// import WebSocketPage from "./machineCoding/WebSocket"
 import Faq from "./machineCoding/Faq"
+import DragDrop from "./machineCoding/DragDrop"
 
 
 function App() {
@@ -90,7 +91,8 @@ function App() {
       {/* <SearchFilter/> */}
       {/* <Paginataion/> */}
       {/* <WebSocketPage/> */}
-      <Faq/>
+      {/* <Faq/> */}
+      <DragDrop/>
     </>
   )
 }

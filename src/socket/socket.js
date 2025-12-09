@@ -1,8 +1,8 @@
 import { io } from "socket.io-client";
 
 export const socket = io("http://localhost:5000", {
-  autoConnect: true,   // default
-  reconnection: true,  // default
+  autoConnect: false,   // default
+  reconnection: false,  // default
   // reconnectionAttempts: Infinity,
-  reconnectionDelay: 1000,
+  // reconnectionDelay: 1000,
 });
