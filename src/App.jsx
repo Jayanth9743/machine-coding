@@ -9,6 +9,7 @@ import TodoList from "./machineCoding/TodoList"
 import SearchFilter from "./machineCoding/SearchFilter"
 import Paginataion from "./machineCoding/Paginataion"
 import WebSocketPage from "./machineCoding/WebSocket"
+import Faq from "./machineCoding/Faq"
 
 
 function App() {
@@ -88,7 +89,8 @@ function App() {
       {/* <TodoList/> */}
       {/* <SearchFilter/> */}
       {/* <Paginataion/> */}
-      <WebSocketPage/>
+      {/* <WebSocketPage/> */}
+      <Faq/>
     </>
   )
 }

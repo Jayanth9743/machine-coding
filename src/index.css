@@ -1,8 +1,7 @@
 body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -40,3 +39,38 @@ body{
     transform: translate(-50%, 150vh);
   }
 }
+
+.faqContainer {
+  display: flex;
+  width: 500px;
+  margin: 0px auto;
+  flex-direction: column;
+  gap: 5px;
+}
+.faqContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
+  align-items: start;
+  border: 1px solid gray;
+}
+
+.faqQuestion {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.faqAnswer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faqAnswer.open {
+  max-height: 500px;
+}
+
