@@ -11,6 +11,7 @@ import Paginataion from "./machineCoding/Paginataion"
 // import WebSocketPage from "./machineCoding/WebSocket"
 import Faq from "./machineCoding/Faq"
 import DragDrop from "./machineCoding/DragDrop"
+import ProperOtp from "./machineCoding/ProperOtp"
 
 
 function App() {
@@ -92,7 +93,8 @@ function App() {
       {/* <Paginataion/> */}
       {/* <WebSocketPage/> */}
       {/* <Faq/> */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
+      <ProperOtp/>
     </>
   )
 }
