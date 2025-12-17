@@ -12,6 +12,8 @@ import Paginataion from "./machineCoding/Paginataion"
 import Faq from "./machineCoding/Faq"
 import DragDrop from "./machineCoding/DragDrop"
 import ProperOtp from "./machineCoding/ProperOtp"
+import ZodForm from "./machineCoding/ZodForm"
+import RegularForm from "./machineCoding/RegularForm"
 
 
 function App() {
@@ -94,7 +96,9 @@ function App() {
       {/* <WebSocketPage/> */}
       {/* <Faq/> */}
       {/* <DragDrop/> */}
-      <ProperOtp/>
+      {/* <ProperOtp/> */}
+      {/* <ZodForm/> */}
+      <RegularForm/>
     </>
   )
 }
